@@ -51,13 +51,13 @@ function whichQuadrant(x, y) {
             console.log(`(${x},${y}) is in Quadrant 1`)
         }
         else if (x > 0 && y < 0) {
-            console.log(`(${x},${y}) is in Quadrant 2`)
+            console.log(`(${x},${y}) is in Quadrant 4`)
         }
         else if (x < 0 && y < 0) {
             console.log(`(${x},${y}) is in Quadrant 3`)
         }
         else if (x < 0 && y > 0) {
-            console.log(`(${x},${y}) is in Quadrant 4`)
+            console.log(`(${x},${y}) is in Quadrant 2`)
         }
     }
 }
